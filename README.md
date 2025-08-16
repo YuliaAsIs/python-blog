@@ -46,14 +46,14 @@ A full-featured **Python Flask blog website** with **SQLite** database. Users ca
  4. **Set environment variables (optional, defaults are provided):**
 
     ```bash
-    export FLASK_KEY='your_secret_key'
-    export DB_URI='sqlite:///posts.db'
+    set FLASK_KEY='your_secret_key'
+    set DB_URI=sqlite:///posts.db
     ```
 
  5. **Run the application:**
 
     ```bash
-    python app.py
+    python main.py
     ```
 
  ## Dependencies

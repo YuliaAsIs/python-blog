@@ -15,7 +15,6 @@ from hashlib import md5
 import os
 
 app = Flask(__name__)
-#app.config['SECRET_KEY'] = '7DmkEfBA6O6donzWlSihBXox7C0sKR6b'
 app.config['SECRET_KEY'] = os.environ.get('FLASK_KEY')
 ckeditor = CKEditor(app)
 Bootstrap5(app)
